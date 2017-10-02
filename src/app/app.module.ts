@@ -24,6 +24,7 @@ import { ContainerComponent } from './container/container.component';
   imports: [
     BrowserModule,
     FormsModule,
+<<<<<<< HEAD
     HttpModule,
     BrowserAnimationsModule,
     MdButtonModule,
@@ -31,6 +32,9 @@ import { ContainerComponent } from './container/container.component';
     MdMenuModule,
     MdToolbarModule,
     MdIconModule
+=======
+    HttpModule
+>>>>>>> 66915507791a173008d97665e5d36c5eb9b56858
   ],
   providers: [],
   bootstrap: [AppComponent]
