@@ -8,18 +8,20 @@ import { MdButtonModule,
          MdMenuModule,
          MdToolbarModule,
          MdIconModule } from '@angular/material';
-
+import { MatCheckboxModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContainerComponent } from './container/container.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ContainerComponent
+    ContainerComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { ContainerComponent } from './container/container.component';
     MdCardModule,
     MdMenuModule,
     MdToolbarModule,
-    MdIconModule
+    MdIconModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

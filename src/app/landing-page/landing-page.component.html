@@ -1,0 +1,38 @@
+<div class="main-container">
+  <div class="container-background" [ngStyle]="{'background-image': 'url(' + imageUrl + ')'}">
+    <!--<img class="profile-image" [src]="imageUrl" />-->
+    <md-card class="profile-card">
+        <md-card-header class="card-header" [ngStyle]="{'background-image': 'url(' + cardImageUrl + ')'}">
+          <div md-card-avatar class="card-image">
+            <img [src]="cardImageUrl" />
+          </div>
+          <div class="profile-title-container">
+            <md-card-title class="profile-title">Suvadip Ghosh</md-card-title>
+            <md-card-subtitle></md-card-subtitle>
+          </div>
+        </md-card-header>
+        <div class="profile-img-container">
+          <img md-card-image [src]="profileImageUrl" alt="Photo of a Shiba Inu">
+        </div>
+        <md-card-content>
+          <div class="profile-tag">
+            <p>"I have no special talents. I am only passionately curious."</p>
+          </div>
+        </md-card-content>
+        <md-card-actions>
+          <button md-button></button>
+          <button md-button></button>
+        </md-card-actions>
+      </md-card>
+  </div>
+  <div class="profile-conatin">
+
+  </div>
+</div>
+<footer>
+  <md-toolbar class="md-scroll-shrink footer-container" color="white">
+    <div class="footer-wrapper" layout="row" layout-align="center center" flex>
+      <p>all right reserved &copy; Suvadip</p>
+    </div>
+  </md-toolbar>
+</footer>

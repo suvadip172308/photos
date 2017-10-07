@@ -1,0 +1,69 @@
+.container-background{
+  width: 100%;
+  height: 51rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile-card {
+  width: 40%;
+  height: 44rem;
+  float: left;
+  margin: 2em 0 2em 27%;
+  padding: 0;
+}
+
+.card-header {
+  height: 14rem;
+  background-repeat: round;
+}
+
+.card-header .card-image {
+  width: 0;
+}
+
+.card-header .card-image img {
+  width: 100%;
+}
+
+.profile-title-container {
+  margin: 10em auto;
+  color: white;
+  padding-right: 1em;
+}
+
+.profile-title-container .profile-title {
+  font-size: 1.2em;
+  font-family: fantasy;
+}
+
+.profile-img-container {
+  width: 3em;
+  height: 4.5rem;
+  margin: 0 auto;
+}
+
+.profile-img-container img {
+  border: 3px solid #f6f7f4;
+  border-radius: 50%;
+}
+
+.profile-tag {
+  text-align: center;
+}
+
+.profile-tag p {
+  font-family: fantasy;
+  font-size: 1em;
+  font-style: italic;
+}
+
+.footer-conatiner {
+  height: 5rem;
+}
+
+.footer-wrapper {
+  margin: 0 auto;
+  font-family: serif;
+  font-size: 0.7em;
+}
