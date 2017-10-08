@@ -7,7 +7,8 @@ import { MdButtonModule,
          MdCardModule,
          MdMenuModule,
          MdToolbarModule,
-         MdIconModule } from '@angular/material';
+         MdIconModule,
+         MdListModule } from '@angular/material';
 import { MatCheckboxModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -33,7 +34,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     MdMenuModule,
     MdToolbarModule,
     MdIconModule,
-    MatCheckboxModule
+    MdListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

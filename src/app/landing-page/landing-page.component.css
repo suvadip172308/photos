@@ -53,10 +53,63 @@
 }
 
 .profile-tag p {
-  font-family: fantasy;
-  font-size: 1em;
-  font-style: italic;
+  font-family: serif;
+  font-size: 0.6rem;
+  margin-bottom: 0;
+  margin-top: 1rem;
+  font-weight: bold;
 }
+
+.salutation-container {
+  text-align: center;
+  font-family: serif;
+  font-size: 1rem;
+}
+
+.salutation-container .salutation-text {
+  margin: 3rem 0 0 0;
+  font-size: 3rem;
+}
+
+.intro-conatiner {
+  width: 100%;
+  /* float: left; */
+}
+
+.intro-conatiner p {
+  margin: 1rem 5rem;
+  font-family: serif;
+  text-align: justify;
+}
+
+.intro-conatiner p::first-letter {
+  font-size: 150%;
+}
+
+/*.activity-conatiner {
+  height: 26em;
+  display: inherit;
+  margin-left: 63%;
+}
+
+.activity-conatiner .recent-post-title {
+  padding: 2em 0 0em 1em;
+  font-family: initial;
+  font-weight: bold;
+  color: #e23b5a;
+}
+
+.post-list {
+  white-space: nowrap; 
+  width: 12em; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.post-list .post-item {
+  font-family: serif;
+  font-size: 1em;
+} */
 
 .footer-conatiner {
   height: 5rem;
