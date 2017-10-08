@@ -1,56 +1,57 @@
 <div class="main-container">
   <div class="container-background" [ngStyle]="{'background-image': 'url(' + imageUrl + ')'}">
     <!--<img class="profile-image" [src]="imageUrl" />-->
+    
     <md-card class="profile-card">
-        <md-card-header class="card-header" [ngStyle]="{'background-image': 'url(' + cardImageUrl + ')'}">
-          <div md-card-avatar class="card-image">
-            <img [src]="cardImageUrl" />
-          </div>
-          <div class="profile-title-container">
-            <md-card-title class="profile-title">Suvadip Ghosh</md-card-title>
-            <md-card-subtitle></md-card-subtitle>
-          </div>
-        </md-card-header>
-        <div class="profile-img-container">
-          <img md-card-image [src]="profileImageUrl" alt="Photo of a Shiba Inu">
+      <md-card-header class="card-header" [ngStyle]="{'background-image': 'url(' + cardImageUrl + ')'}">
+        <div md-card-avatar class="card-image">
+          <img [src]="cardImageUrl" />
         </div>
-        <md-card-content>
-          <div class="profile-tag">
-            <p>I have no special talents. I am only passionately curious.</p>
+        <div class="profile-title-container">
+          <md-card-title class="profile-title">Suvadip Ghosh</md-card-title>
+          <md-card-subtitle></md-card-subtitle>
+        </div>
+      </md-card-header>
+      <div class="profile-img-container">
+        <img md-card-image [src]="profileImageUrl" alt="Photo of a Shiba Inu">
+      </div>
+      <md-card-content>
+        <div class="profile-tag">
+          <p>I have no special talents. I am only passionately curious.</p>
+        </div>
+        <div class="salutation-container">
+          <p class="salutation-text">Hi</p>
+        </div>
+        <div class="intro-conatiner">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type 
+            specimen book. It has survived not only five centuries, but also the leap into 
+            electronic typesetting, remaining essentially unchanged. It was popularised in 
+            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+            and more recently with desktop publishing software like Aldus PageMaker including 
+            versions of Lorem Ipsum.
+          </p>
+        </div>
+        <!-- <div class="activity-conatiner">
+          <div class="recent-post-title">
+            <p>Recent Post</p>
           </div>
-          <div class="salutation-container">
-            <p class="salutation-text">Hi</p>
+          <div class="recent-post-wrapper">
+            <md-list class="post-list">
+              <md-list-item class="post-item">Lorem Ipsum is simply dummy text</md-list-item>
+              <md-list-item class="post-item">Lorem Ipsum is simply dummy text</md-list-item>
+              <md-list-item class="post-item">Lorem Ipsum is simply dummy text</md-list-item>
+            </md-list>
           </div>
-          <div class="intro-conatiner">
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-              when an unknown printer took a galley of type and scrambled it to make a type 
-              specimen book. It has survived not only five centuries, but also the leap into 
-              electronic typesetting, remaining essentially unchanged. It was popularised in 
-              the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-              and more recently with desktop publishing software like Aldus PageMaker including 
-              versions of Lorem Ipsum.
-            </p>
-          </div>
-         <!-- <div class="activity-conatiner">
-            <div class="recent-post-title">
-              <p>Recent Post</p>
-            </div>
-            <div class="recent-post-wrapper">
-              <md-list class="post-list">
-                <md-list-item class="post-item">Lorem Ipsum is simply dummy text</md-list-item>
-                <md-list-item class="post-item">Lorem Ipsum is simply dummy text</md-list-item>
-                <md-list-item class="post-item">Lorem Ipsum is simply dummy text</md-list-item>
-              </md-list>
-            </div>
-          </div> -->
-        </md-card-content>
-        <md-card-actions>
-          <button md-button></button>
-          <button md-button></button>
-        </md-card-actions>
-      </md-card>
+        </div> -->
+      </md-card-content>
+      <md-card-actions>
+        <button md-button></button>
+        <button md-button></button>
+      </md-card-actions>
+    </md-card>
   </div>
 </div>
 <footer>
