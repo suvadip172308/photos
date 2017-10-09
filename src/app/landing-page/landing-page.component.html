@@ -2,23 +2,11 @@
   <div class="container-background" [ngStyle]="{'background-image': 'url(' + imageUrl + ')'}">
     <div class="page-wrapper">
       <div class="navigation-list">
-        <md-card class="navigation-item">
-          <span>Blog</span>
-        </md-card>
-        <md-card class="navigation-item">
-          <span>Portfolio</span>
-        </md-card>
-        <md-card class="navigation-item">
-          <span>Skills</span>
-        </md-card>
-        <md-card class="navigation-item">
-          <span>Contacts</span>
-        </md-card>
-        <md-card class="navigation-item">
-          <span>Photography</span>
-        </md-card>
-        <md-card class="navigation-item">
-          <span>Resume</span>
+        <!-- add navigation list here -->
+        <md-card class="navigation-item" 
+                 *ngFor="let navigationItem of navigationList"
+                 [routerLink]="'/' + navigationItem.route">
+          <span>{{ navigationItem.text }}</span>
         </md-card>
       </div>
       <div>
@@ -33,11 +21,11 @@
             </div>
           </md-card-header>
           <div class="profile-img-container">
-            <img md-card-image [src]="profileImageUrl" alt="Photo of a Shiba Inu">
+            <img md-card-image [src]="profileImageUrl" alt="Suvadip Ghosh">
           </div>
           <md-card-content>
             <div class="profile-tag">
-              <p>I have no special talents. I am only passionately curious.</p>
+              <!-- <p>I have no special talents. I am only passionately curious.</p> -->
             </div>
             <div class="salutation-container">
               <p class="salutation-text">Hi</p>
@@ -55,10 +43,6 @@
               </p>
             </div>
           </md-card-content>
-          <md-card-actions>
-            <button md-button></button>
-            <button md-button></button>
-          </md-card-actions>
         </md-card>
       </div>
     </div>
@@ -67,7 +51,7 @@
 <footer>
   <md-toolbar class="md-scroll-shrink footer-container" color="white">
     <div class="footer-wrapper" layout="row" layout-align="center center" flex>
-      <p>all right reserved &copy; Suvadip</p>
+      <p>All right reserved &copy; suvadip</p>
     </div>
   </md-toolbar>
 </footer>

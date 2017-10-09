@@ -1,0 +1,22 @@
+.main {
+  height: 99vh;
+	border: 1px solid red;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.error-wrapper{
+	
+}
+
+.error-wrapper .error-code {
+	font-size: 6rem;
+	margin: 20px 0;
+}
+
+.error-wrapper .error-text {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
