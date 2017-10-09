@@ -5,11 +5,29 @@
   background-size: cover;
 }
 
+.page-wrapper {
+  float: left;
+  margin: 2em 0rem;
+  clear: both;
+}
+
+.navigation-list {
+  float: left;
+  margin-left: 18%;
+}
+
+.navigation-list .navigation-item {
+  width: 8em;
+  padding: 12px 22px;
+  margin: 0 13px 6px 13px;;
+  border-radius: 0;
+}
+
 .profile-card {
   width: 40%;
   height: 44rem;
   float: left;
-  margin: 2em 0 2em 27%;
+  /* margin: 2em 0 2em 27%; */
   padding: 0;
 }
 
@@ -85,31 +103,6 @@
 .intro-conatiner p::first-letter {
   font-size: 150%;
 }
-
-/*.activity-conatiner {
-  height: 26em;
-  display: inherit;
-  margin-left: 63%;
-}
-
-.activity-conatiner .recent-post-title {
-  padding: 2em 0 0em 1em;
-  font-family: initial;
-  font-weight: bold;
-  color: #e23b5a;
-}
-
-.post-list {
-  white-space: nowrap; 
-  width: 12em; 
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.post-list .post-item {
-  font-family: serif;
-  font-size: 1em;
-} */
 
 .footer-conatiner {
   height: 5rem;
