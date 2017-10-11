@@ -18,6 +18,8 @@ import { FooterComponent }       from './footer/footer.component';
 import { ContainerComponent }    from './container/container.component';
 import { LandingPageComponent }  from './landing-page/landing-page.component';
 import { BlogComponent }         from './blog/blog.component';
+import { BlogListComponent }     from './blog-list/blog-list.component';
+import { ItemBlogComponent }     from './item-blog/item-blog.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
@@ -29,8 +31,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ContainerComponent,
     LandingPageComponent,
     BlogComponent,
-    PageNotFoundComponent
-
+    PageNotFoundComponent,
+    BlogListComponent,
+    ItemBlogComponent
   ],
   imports: [
     BrowserModule,

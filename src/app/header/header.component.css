@@ -3,5 +3,5 @@
 }
 
 .spacer {
-  margin-left: 92%;
+  flex: 1 1 auto;
 }
