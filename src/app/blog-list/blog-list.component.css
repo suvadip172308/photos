@@ -1,32 +1,4 @@
-/* .gridListdemoBasicUsage md-grid-list {
-    margin: 8px;
-  }
-  
-  .gridListdemoBasicUsage .gray {
-    background: #f5f5f5;
-  }
-  
-  .gridListdemoBasicUsage md-grid-tile {
-    transition: all 400ms ease-out 50ms;
-  }
-
-  .col-sm4 {
-      width: 25%;
-  } ///
-
-  .demo-card-wide.mdl-card {
-    width: 512px;
-  }
-  .demo-card-wide > .mdl-card__title {
-    color: #fff;
-    height: 176px;
-    background: url('../../assets/images/welcome_card.jpg') center / cover;
-  }
-  .demo-card-wide > .mdl-card__menu {
-    color: #fff;
-  }*/
-
-  .blog-container::before {
+.blog-container::before {
     background-size: cover;
     background-attachment: fixed;
     content: '';
