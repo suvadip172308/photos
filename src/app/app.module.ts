@@ -10,6 +10,7 @@ import { MdButtonModule,
          MdIconModule,
          MdListModule }          from '@angular/material';
 import { MatCheckboxModule }     from '@angular/material';
+import {MarkdownToHtmlModule} from 'markdown-to-html-pipe';
 
 import { AppRoutingModule }      from './app-routing.module';
 import { AppComponent }          from './app.component';
@@ -21,6 +22,7 @@ import { BlogComponent }         from './blog/blog.component';
 import { BlogListComponent }     from './blog-list/blog-list.component';
 import { ItemBlogComponent }     from './item-blog/item-blog.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { CommonService }         from './shared/services/common.service'
 
 
 @NgModule({
@@ -46,9 +48,12 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     MdMenuModule,
     MdToolbarModule,
     MdIconModule,
-    MdListModule
+    MdListModule,
+    MarkdownToHtmlModule
   ],
-  providers: [],
+  providers: [
+    CommonService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
